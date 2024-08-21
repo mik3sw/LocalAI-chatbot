@@ -9,7 +9,7 @@ async def func(update, context):
     :param context: CallbackContext
     :return: None
     """
-    msg = "MESSAGGIO START"
+    msg = "Chatbot ready! If this is the first time you use this bot, run the /init command"
 
 
     await context.bot.send_message(chat_id=update.message.chat_id,
